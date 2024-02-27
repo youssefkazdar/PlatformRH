@@ -6,14 +6,16 @@ import CustomInput from "./components/CustomInput";
 const Navbar = () => {
 
 const poleOptions = [
-  "Dev Co",
-  "P&P",
+  "Developpement Commercial",
+  "Projet Et Prospection",
   "Marketing"
 ];
 
 const posteOptions = [
   "Junior",
-  "Senior"
+  "Senior",
+  "Bureau",
+  "Alumni"
 ]
   return (
     <main>
@@ -25,12 +27,12 @@ const posteOptions = [
         <img src="/folder.png" className="edit_image-icon" />
       </div>
       <div className="inputs-form"> 
-       <CustomInput label="Nom et prenom" placeholder="Mehdi Benguiza" type="text" />
+       <CustomInput label="Nom et prenom" placeholder="Le nom et le prenom" type="text" />
        <CustomInput label="Pole" placeholder="Mehdi Benguiza" type="select" options={poleOptions} />
-       <CustomInput label="Nom et prenom" placeholder="Mehdi Benguiza" type="text"/>
-       <CustomInput label="Nom et prenom" placeholder="Mehdi Benguiza" type="text"/>
+       <CustomInput label="Numrero Telephone" placeholder="+216 00000000" type="text"/>
+       <CustomInput label="Email" placeholder="aeazdsd@gmail.com" type="text"/>
        <CustomInput label="Poste" placeholder="Mehdi Benguiza" type="select" options={posteOptions}/>
-       <CustomInput label="Nom et prenom" placeholder="Mehdi Benguiza" type="text"/>
+       <CustomInput label="Adresse" placeholder="7421 rue xxxx" type="text"/>
       </div>
       <button className="edit-button">
        <span style={{color:"white"}}>Modifier</span> 
