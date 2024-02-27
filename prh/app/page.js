@@ -6,7 +6,7 @@ import CustomInput from "./components/CustomInput";
 const Navbar = () => {
 
 const poleOptions = [
-  "Developpement Commercial",
+  "Développement Commercial",
   "Projet Et Prospection",
   "Marketing"
 ];
@@ -15,7 +15,9 @@ const posteOptions = [
   "Junior",
   "Senior",
   "Bureau",
-  "Alumni"
+  "Alumni",
+  "Sénateur",
+  "Membre d'honneur"
 ]
   return (
     <main>
@@ -28,7 +30,7 @@ const posteOptions = [
       </div>
       <div className="inputs-form"> 
        <CustomInput label="Nom et prenom" placeholder="Le nom et le prenom" type="text" />
-       <CustomInput label="Pole" placeholder="Mehdi Benguiza" type="select" options={poleOptions} />
+       <CustomInput label="Pôle" placeholder="Mehdi Benguiza" type="select" options={poleOptions} />
        <CustomInput label="Numrero Telephone" placeholder="+216 00000000" type="text"/>
        <CustomInput label="Email" placeholder="aeazdsd@gmail.com" type="text"/>
        <CustomInput label="Poste" placeholder="Mehdi Benguiza" type="select" options={posteOptions}/>
