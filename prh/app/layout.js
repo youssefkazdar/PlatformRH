@@ -16,7 +16,7 @@ function Layout({children}) {
         specialty="1ere génie informatique"
       />
     <div className="flex justify-center mt-2 mr-auto space-x-6 "> 
-         <Button onClick={handleButtonClick}  >Ajouter</Button> 
+         <Button onClick={handleButtonClick}  >Modifier</Button> 
          <Button onClick={handleButtonClick} >Supprimer</Button> 
         </div>         
 
