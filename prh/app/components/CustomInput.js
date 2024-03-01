@@ -2,7 +2,7 @@ import React from 'react'
 
 const CustomInput = ({ label, placeholder, type, options }) => {
     return (
-        <div className='input-custom'>
+        <div className='flex flex-col gap-4'>
             <label>{label}</label>
 
 
