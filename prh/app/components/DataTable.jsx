@@ -23,11 +23,17 @@ class DataTable extends Component {
 
   render() {
     const { data } = this.state;
+    function ajoutermembre(){
+
+      
+
+
+    }
     return (
   
         
         <div className="overflow-x-auto ">
-             <button   className='m-4 rounded-lg py-3 bg-blue-500 text-white'> ajouter membre </button>
+             <button onClick={ajoutermembre()}  className='m-4 rounded-lg py-3 bg-blue-500 text-white'> ajouter membre </button>
         <table className="border-collapse border border-gray-300 w-full">
           <thead>
             <tr className="bg-gray-200">
