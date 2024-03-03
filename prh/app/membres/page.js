@@ -28,7 +28,7 @@ const posteOptions = [
         <img src="https://a.storyblok.com/f/191576/1200x800/215e59568f/round_profil_picture_after_.webp" alt="Image" className="avatar" />
         <img src="/folder.png" className="w-32px" />
       </div>
-      <div className="grid grid-cols-2 gap-12"> 
+      <div className="grid grid-cols-2 gap-20  "> 
        <CustomInput label="Nom et prenom" placeholder="Le nom et le prenom" type="text" />
        <CustomInput label="Pôle" placeholder="Mehdi Benguiza" type="select" options={poleOptions} />
        <CustomInput label="Numrero Telephone" placeholder="+216 00000000" type="text"/>

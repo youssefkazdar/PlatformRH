@@ -495,6 +495,14 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 .ml-4 {
   margin-left: 1rem;
 }
@@ -552,8 +560,23 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
-.gap-8 {
-  gap: 2rem;
+.gap-20 {
+  gap: 5rem;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-40 {
+  gap: 10rem;
+}
+.gap-60 {
+  gap: 15rem;
+}
+.gap-14 {
+  gap: 3.5rem;
+}
+.gap-16 {
+  gap: 4rem;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -640,6 +663,22 @@ video {
 .avatar {
   width: 220px;
 
+}
+
+
+@media (min-width: 640px) {
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .md\:gap-20 {
+    gap: 5rem;
+  }
 }
 
 
