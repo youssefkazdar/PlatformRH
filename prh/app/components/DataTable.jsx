@@ -1,61 +1,43 @@
 
-"use client";
+import React from 'react';
 
-import React, { Component } from 'react';
+const DataTable = () => {
+  return (
+    <div className="flex  flex-col p-4 gap-2">  
 
-class DataTable extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: [],
-    };
-  }
+      <button className="self-start rounded-2xl py-2 px-6 bg-[#2F5B96] text-white">Ajouter Membre</button>
+      <div className='flex justify-between items-center'>
+<h2 className='font-bold font-sans'> Tous les Membre</h2>
 
-  componentDidMount() {
-    
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(fetchedData => {
-        this.setState({ data: fetchedData });
-      })
-      .catch(error => console.error('Error fetching data:', error));
-  }
-
-  render() {
-    const { data } = this.state;
-    function ajoutermembre(){
-
-      
-
-
-    }
-    return (
-  
-        
-        <div className="overflow-x-auto ">
-             <button onClick={ajoutermembre()}  className='m-4 rounded-lg py-3 bg-blue-500 text-white'> ajouter membre </button>
-        <table className="border-collapse border border-gray-300 w-full">
-          <thead>
-            <tr className="bg-gray-200">
-              <th className="border border-gray-300 p-2">Name</th>
-              <th className="border border-gray-300 p-2">Email</th>
-              <th className="border border-gray-300 p-2">Phone</th>
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((item, index) => (
-              <tr key={index} className="border border-gray-300">
-                <td className="border border-gray-300 p-2">{item.name}</td>
-                <td className="border border-gray-300 p-2">{item.email}</td>
-                <td className="border border-gray-300 p-2">{item.phone}</td>
-                
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <input className=" bg-gray-100 px-6 py-3" type="text" placeholder="Search.." />
       </div>
-    );
-  }
-}
+
+      <table className=" ml-2 border-collapse border border-gray-300 w-full">
+        <thead>
+          <tr className="bg-gray-200">
+            <th className="border border-gray-300 p-2">Name</th>
+            <th className="border border-gray-300 p-2">Prenom</th>
+            <th className="border border-gray-300 p-2">Email</th>
+            <th className="border border-gray-300 p-2">Phone</th>
+            <th className="border border-gray-300 p-2">Pole</th>
+            <th className="border border-gray-300 p-2">Adresse</th>
+            <th className="border border-gray-300 p-2">Poste</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border border-gray-300">
+            <td className="border border-gray-300 p-2">Nom</td>
+            <td className="border border-gray-300 p-2">Nom</td>
+            <td className="border border-gray-300 p-2">Nom</td>
+            <td className="border border-gray-300 p-2">Nom</td>
+            <td className="border border-gray-300 p-2">Nom</td>
+            <td className="border border-gray-300 p-2">Nom</td>
+            <td className="border border-gray-300 p-2">Nom</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+};
 
 export default DataTable;
