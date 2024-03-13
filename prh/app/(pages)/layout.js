@@ -1,4 +1,4 @@
-import "./globals.css";
+import SideBarMenu from "../components/sideBarMenu";
 
 export const metadata = {
   title: "Platform RH",
@@ -7,13 +7,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-
-      <body>
         <div className='flex'>
+          <SideBarMenu/>
           <div className='flex-auto'>{children}</div>
         </div>
-      </body>
-    </html>
   );
 }
