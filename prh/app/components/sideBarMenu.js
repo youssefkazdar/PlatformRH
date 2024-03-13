@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from 'next/link';
 
 export default function SideBarMenu() {
+  
   return (
     <div className='flex flex-col w-60 bg-[#2F5B96] rounded-lg min-h-screen p-6 gap-12'>
             
