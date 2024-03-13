@@ -9,9 +9,10 @@ const DataTable = () => {
       <div class="flex-auto mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white dark:bg-gray-800 w-auto">
         
       <div className='flex justify-between items-center'>
-<h2 className='font-bold font-sans'> Tous les Membre</h2>
 
-      <input className=" bg-gray-100 px-6 py-3 rounded-2xl" type="text" placeholder="Search.." />
+        <h2 className='font-bold font-sans'> Tous les Membre</h2>
+      <input className=" bg-gray-100 px-6 py-2 rounded-2xl" type="text" placeholder="⌕ Rechercher" />
+        <button className=" bg-gray-100 px-7 py-2 rounded-2xl ml-6 "> Abreger par: ￬</button>
       </div>
       
 
