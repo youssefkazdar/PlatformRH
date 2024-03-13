@@ -23,7 +23,7 @@ export default function SideBarMenu() {
     </div>
 
     <div className='flex flex-col gap-10 ml-4'>
-    <Link href='/' className='flex items-center gap-6'>
+    <Link href='/ProfilAdmin' className='flex items-center gap-6'>
     <Image
     src="/user.png"
     width={25}
@@ -34,7 +34,7 @@ export default function SideBarMenu() {
     </Link>
     
 
-    <Link href='/membres' className='flex items-center gap-6'>
+    <Link href='/ListeMemebre' className='flex items-center gap-6'>
     <Image
     src="/group.png"
     width={25}

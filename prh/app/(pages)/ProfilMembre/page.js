@@ -1,10 +1,10 @@
 import Card from "./components/card";
 import Layout from "./layout";
 
-function page(){
+function ProfilMembre(){
    return (<div>
        <Layout></Layout>    
    </div>)
 }
 
-export default page;
+export default ProfilMembre;

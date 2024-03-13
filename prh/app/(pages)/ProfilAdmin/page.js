@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Profilinterface() {
+export default function ProfilAdmin() {
   return (
     <>
     <div className='flex flex-col gap-6 p-10 justify-center items-center min-h-screen'>
