@@ -2,18 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
+
   
-  .my-table th,
-  .my-table td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-  }
-  
+ 
   .gray-row {
     background-color: #d3d3d3; /* Gris */
   }
