@@ -1,5 +1,4 @@
 import React from 'react';
-import './global.css';
 
 function ProfilePic({ imageUrl }) {
   return (
