@@ -1,3 +1,6 @@
 {
-  "/membres/page": "app/membres/page.js"
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js",
+  "/Calendrier/page": "app/Calendrier/page.js",
+  "/calendrier/page": "app/calendrier/page.js"
 }
