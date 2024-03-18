@@ -16,6 +16,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/Calendrier/page.js"
     ],
+    "/membres/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/membres/page.js"
+    ],
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
