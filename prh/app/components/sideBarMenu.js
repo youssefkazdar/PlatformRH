@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function SideBarMenu() {
   const pathname = usePathname()
   return (
-    <div className='flex flex-col w-60 bg-[#2E5D96] rounded-lg h-screen gap-12 p-2'>
+    <div className='flex flex-col w-60 bg-[#2E5D96] rounded-lg min-h-screen gap-12 p-2'>
       <div className='flex flex-col gap-2'>
         <div className='flex items-center gap-2 justify-center'>
           <Image
