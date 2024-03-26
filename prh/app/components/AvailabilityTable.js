@@ -74,14 +74,21 @@ const AvailabilityTable = () => {
       <div className="self-center">
         <table className="table-auto border-collapse border text-[#2E5D96]">
           <thead>
-            <tr>
-            <th className="border diagonal-cell p-2 ">Recruteur &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Date</th>
-              {dates.map((date, index) => (
-                <td key={index} className="border p-2">
-                  {date}
-                </td>
-              ))}
-            </tr>
+          <tr>
+  <th className="relative p-2">
+    <svg className="absolute inset-0 w-full h-full z-0" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="0" x2="100%" y2="100%" stroke="#2E5D96" strokeWidth="0.2" />
+    </svg>
+    <span className="relative z-10">Recruteur &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Date</span>
+  </th>
+  {dates.map((date, index) => (
+    <td key={index} className="border p-2">
+      {date}
+    </td>
+  ))}
+</tr>
+
+
           </thead>
           <tbody>
             {recruiters.map((recruiter, index) => (

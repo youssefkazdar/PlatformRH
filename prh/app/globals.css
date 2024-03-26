@@ -68,22 +68,7 @@
   font-size: 17px;
 }
 
-.diagonal-cell {
-  position: relative;
-}
 
-.diagonal-cell:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: calc(101% - 0px); /* Adjust the width to account for padding */
-  border-top: 1px solid #2E5D96; /* Adjust the border style as needed */
-  transform: rotate(7.1deg);
-  transform-origin: left top;
-  z-index: -1;
-}
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
