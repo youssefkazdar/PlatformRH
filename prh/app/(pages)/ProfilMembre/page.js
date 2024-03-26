@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import CardMembre from '../../components/CardMembre'; 
 import ButtonMembre from '../../components/buttonmembre'; 
 
@@ -21,7 +22,7 @@ export default function ProfilMembre({ children }) {
         specialty="1ere génie informatique"
       />
       <div className="flex justify-center mt-2  space-x-6 ">
-        <ButtonMembre >Modifier</ButtonMembre> 
+        <Link href="/Modifier"><ButtonMembre >Modifier</ButtonMembre></Link> 
         <ButtonMembre >Supprimer</ButtonMembre> 
       </div>
     </div>

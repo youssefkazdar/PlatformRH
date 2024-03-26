@@ -37,8 +37,8 @@ export default function SideBarMenu() {
           </div>
         </Link>
 
-        <Link href='/ListeMemebre'>
-        <div className={`flex items-center hover:bg-[#9CA8C1] gap-6 rounded-full p-2 ${pathname === '/ListeMemebre' ? 'bg-[#9CA8C1]' : ''}`}>
+        <Link href='/ListeMemebres'>
+        <div className={`flex items-center hover:bg-[#9CA8C1] gap-6 rounded-full p-2 ${pathname === '/ListeMemebres' ? 'bg-[#9CA8C1]' : ''}`}>
             <Image
               src="/group.png"
               width={25}

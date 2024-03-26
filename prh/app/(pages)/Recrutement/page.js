@@ -1,13 +1,12 @@
-import AvailabilityTable from '../../components/AvailabilityTable';
+import Candidature from '@/app/components/Candidature'
+import React from 'react'
 
-const Home = () => {
+const page = () => {
   return (
-    <div className="flex flex-col h-screen p-4 gap-6">
-      <h1 className="text-2xl font-mont font-bold">Disponibilité du recruteur</h1>
-       <AvailabilityTable/>
+    <div>
+      <Candidature></Candidature>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
-
+export default page
