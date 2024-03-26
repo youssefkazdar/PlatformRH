@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link'
 
 
 const Candidature = () => {
@@ -7,7 +8,8 @@ const Candidature = () => {
     <div>
     <div className="flex  flex-col p-4 gap-2">
         <div className='justify-between '>
-       <button className="self-start rounded-2xl py-2 px-6 bg-[#2F5B96] text-white">Espace Recruteur</button>
+      <Link href="/EspaceRecruteur">
+       <button className="self-start rounded-2xl py-2 px-6 bg-[#2F5B96] text-white">Espace Recruteur</button></Link>
        <input className="bg-[#2F5B96] px-6 py-2 rounded-2xl absolute top-0 right-0 h-12 w-50 mt-3" type="text" placeholder="⌕ Rechercher" />
        </div>
        <br />
@@ -42,7 +44,8 @@ const Candidature = () => {
        <h3 className='font-medium font-sans ml-3' >Note d'evaluation :</h3>
        <h3 className='font-thin font-sans ml-4' >0</h3>
        <br />
-       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button>
+       <Link href="/DetailsEntretien">
+       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button></Link>
 
 
 
@@ -63,7 +66,9 @@ const Candidature = () => {
        <h3 className='font-medium font-sans ml-3' >Note d'evaluation :</h3>
        <h3 className='font-thin font-sans ml-4' >0</h3>
        <br />
-       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button>
+       <Link href="/DetailsEntretien">
+       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button></Link>
+
 
 
   </div>    
@@ -83,7 +88,9 @@ const Candidature = () => {
        <h3 className='font-medium font-sans ml-3' >Note d'evaluation :</h3>
        <h3 className='font-thin font-sans ml-4' >0</h3>
        <br />
-       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button>
+       <Link href="/DetailsEntretien">
+       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button></Link>
+
 
 
 
@@ -104,7 +111,9 @@ const Candidature = () => {
        <h3 className='font-medium font-sans ml-3' >Note d'evaluation :</h3>
        <h3 className='font-thin font-sans ml-4' >0</h3>
        <br />
-       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button>
+       <Link href="/DetailsEntretien">
+       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button></Link>
+
 
 
 
@@ -124,7 +133,9 @@ const Candidature = () => {
        <h3 className='font-medium font-sans ml-3' >Note d'evaluation :</h3>
        <h3 className='font-thin font-sans ml-4' >0</h3>
        <br />
-       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button>
+       <Link href="/DetailsEntretien">
+       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button></Link>
+
 
 
   </div>    
@@ -143,7 +154,9 @@ const Candidature = () => {
        <h3 className='font-medium font-sans ml-3' >Note d'evaluation :</h3>
        <h3 className='font-thin font-sans ml-4' >0</h3>
        <br />
-       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button>
+       <Link href="/DetailsEntretien">
+       <button className=" self-center rounded-2xl py-1 px-6 bg-[#2F5B96] text-white ml-20  mb-4 mr-4">Ouvrir fichier</button></Link>
+
 
 
 
