@@ -79,23 +79,12 @@
   bottom: 0;
   left: 0;
   width: calc(101% - 0px); /* Adjust the width to account for padding */
-  border-top: 1px solid black; /* Adjust the border style as needed */
+  border-top: 1px solid #2E5D96; /* Adjust the border style as needed */
   transform: rotate(7.1deg);
   transform-origin: left top;
   z-index: -1;
 }
 
-/* Change the border color of the table */
-.table-auto {
-  border-color: black; /* Change to match the color of the diagonal line */
-}
-
-/* Override the default table border style */
-.table-auto th,
-.table-auto td {
-  border: 1px solid black; /* Set border for all sides */
-  color: #2E5D96; /* Change the color of the text to blue */
-}
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a,

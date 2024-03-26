@@ -72,10 +72,10 @@ const AvailabilityTable = () => {
 
       {/* Table */}
       <div className="self-center">
-        <table className="table-auto border-collapse border">
+        <table className="table-auto border-collapse border text-[#2E5D96]">
           <thead>
             <tr>
-            <th className="border diagonal-cell p-2">Recruteur &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Date</th>
+            <th className="border diagonal-cell p-2 ">Recruteur &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Date</th>
               {dates.map((date, index) => (
                 <td key={index} className="border p-2">
                   {date}
